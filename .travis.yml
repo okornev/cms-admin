@@ -8,6 +8,5 @@ before_install:
   - cd $TRAVIS_USERNAME/oo-commons
   - mvn clean install -Dmaven.test.skip=true
   - cd ../..
-sudo: false
 language: java
 jdk: oraclejdk8
